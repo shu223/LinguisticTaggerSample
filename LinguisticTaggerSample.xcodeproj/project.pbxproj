@@ -10,33 +10,34 @@
 		8A506D9C16F639AE0003C3DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A506D9B16F639AE0003C3DA /* UIKit.framework */; };
 		8A506D9E16F639AE0003C3DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A506D9D16F639AE0003C3DA /* Foundation.framework */; };
 		8A506DA016F639AE0003C3DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A506D9F16F639AE0003C3DA /* CoreGraphics.framework */; };
-		8A506DA616F639AE0003C3DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DA416F639AE0003C3DA /* InfoPlist.strings */; };
-		8A506DA816F639AE0003C3DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A506DA716F639AE0003C3DA /* main.m */; };
-		8A506DAC16F639AE0003C3DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A506DAB16F639AE0003C3DA /* AppDelegate.m */; };
-		8A506DAE16F639AE0003C3DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DAD16F639AE0003C3DA /* Default.png */; };
-		8A506DB016F639AE0003C3DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DAF16F639AE0003C3DA /* Default@2x.png */; };
-		8A506DB216F639AE0003C3DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DB116F639AE0003C3DA /* Default-568h@2x.png */; };
-		8A506DB516F639AE0003C3DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A506DB416F639AE0003C3DA /* ViewController.m */; };
-		8A506DB816F639AE0003C3DA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DB616F639AE0003C3DA /* ViewController.xib */; };
+		8A506DCE16F6997F0003C3DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A506DC116F6997F0003C3DA /* AppDelegate.m */; };
+		8A506DCF16F6997F0003C3DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DC216F6997F0003C3DA /* Default-568h@2x.png */; };
+		8A506DD016F6997F0003C3DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DC316F6997F0003C3DA /* Default.png */; };
+		8A506DD116F6997F0003C3DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DC416F6997F0003C3DA /* Default@2x.png */; };
+		8A506DD216F6997F0003C3DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DC516F6997F0003C3DA /* InfoPlist.strings */; };
+		8A506DD316F6997F0003C3DA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DC716F6997F0003C3DA /* ViewController.xib */; };
+		8A506DD416F6997F0003C3DA /* LinguisticTaggerSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DC916F6997F0003C3DA /* LinguisticTaggerSample-Info.plist */; };
+		8A506DD516F6997F0003C3DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A506DCB16F6997F0003C3DA /* main.m */; };
+		8A506DD616F6997F0003C3DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A506DCD16F6997F0003C3DA /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8A506D9816F639AE0003C3DA /* LinguisticTagger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinguisticTagger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A506D9816F639AE0003C3DA /* LinguisticTaggerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinguisticTaggerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A506D9B16F639AE0003C3DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8A506D9D16F639AE0003C3DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A506D9F16F639AE0003C3DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8A506DA316F639AE0003C3DA /* LinguisticTagger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinguisticTagger-Info.plist"; sourceTree = "<group>"; };
-		8A506DA516F639AE0003C3DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8A506DA716F639AE0003C3DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8A506DA916F639AE0003C3DA /* LinguisticTagger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinguisticTagger-Prefix.pch"; sourceTree = "<group>"; };
-		8A506DAA16F639AE0003C3DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8A506DAB16F639AE0003C3DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8A506DAD16F639AE0003C3DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		8A506DAF16F639AE0003C3DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		8A506DB116F639AE0003C3DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8A506DB316F639AE0003C3DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8A506DB416F639AE0003C3DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8A506DB716F639AE0003C3DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8A506DC016F6997F0003C3DA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A506DC116F6997F0003C3DA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A506DC216F6997F0003C3DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A506DC316F6997F0003C3DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8A506DC416F6997F0003C3DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8A506DC616F6997F0003C3DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A506DC816F6997F0003C3DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8A506DC916F6997F0003C3DA /* LinguisticTaggerSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LinguisticTaggerSample-Info.plist"; sourceTree = "<group>"; };
+		8A506DCA16F6997F0003C3DA /* LinguisticTaggerSample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LinguisticTaggerSample-Prefix.pch"; sourceTree = "<group>"; };
+		8A506DCB16F6997F0003C3DA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A506DCC16F6997F0003C3DA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A506DCD16F6997F0003C3DA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +57,7 @@
 		8A506D8F16F639AE0003C3DA = {
 			isa = PBXGroup;
 			children = (
-				8A506DA116F639AE0003C3DA /* LinguisticTagger */,
+				8A506DBF16F6997F0003C3DA /* LinguisticTaggerSample */,
 				8A506D9A16F639AE0003C3DA /* Frameworks */,
 				8A506D9916F639AE0003C3DA /* Products */,
 			);
@@ -65,7 +66,7 @@
 		8A506D9916F639AE0003C3DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A506D9816F639AE0003C3DA /* LinguisticTagger.app */,
+				8A506D9816F639AE0003C3DA /* LinguisticTaggerSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,29 +81,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8A506DA116F639AE0003C3DA /* LinguisticTagger */ = {
+		8A506DBF16F6997F0003C3DA /* LinguisticTaggerSample */ = {
 			isa = PBXGroup;
 			children = (
-				8A506DAA16F639AE0003C3DA /* AppDelegate.h */,
-				8A506DAB16F639AE0003C3DA /* AppDelegate.m */,
-				8A506DB316F639AE0003C3DA /* ViewController.h */,
-				8A506DB416F639AE0003C3DA /* ViewController.m */,
-				8A506DB616F639AE0003C3DA /* ViewController.xib */,
-				8A506DA216F639AE0003C3DA /* Supporting Files */,
+				8A506DC016F6997F0003C3DA /* AppDelegate.h */,
+				8A506DC116F6997F0003C3DA /* AppDelegate.m */,
+				8A506DCC16F6997F0003C3DA /* ViewController.h */,
+				8A506DCD16F6997F0003C3DA /* ViewController.m */,
+				8A506DC716F6997F0003C3DA /* ViewController.xib */,
+				8A506DD716F699870003C3DA /* Supporting Files */,
 			);
-			path = LinguisticTagger;
+			path = LinguisticTaggerSample;
 			sourceTree = "<group>";
 		};
-		8A506DA216F639AE0003C3DA /* Supporting Files */ = {
+		8A506DD716F699870003C3DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8A506DA316F639AE0003C3DA /* LinguisticTagger-Info.plist */,
-				8A506DA416F639AE0003C3DA /* InfoPlist.strings */,
-				8A506DA716F639AE0003C3DA /* main.m */,
-				8A506DA916F639AE0003C3DA /* LinguisticTagger-Prefix.pch */,
-				8A506DAD16F639AE0003C3DA /* Default.png */,
-				8A506DAF16F639AE0003C3DA /* Default@2x.png */,
-				8A506DB116F639AE0003C3DA /* Default-568h@2x.png */,
+				8A506DC216F6997F0003C3DA /* Default-568h@2x.png */,
+				8A506DC316F6997F0003C3DA /* Default.png */,
+				8A506DC416F6997F0003C3DA /* Default@2x.png */,
+				8A506DC516F6997F0003C3DA /* InfoPlist.strings */,
+				8A506DC916F6997F0003C3DA /* LinguisticTaggerSample-Info.plist */,
+				8A506DCA16F6997F0003C3DA /* LinguisticTaggerSample-Prefix.pch */,
+				8A506DCB16F6997F0003C3DA /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A506D9716F639AE0003C3DA /* LinguisticTagger */ = {
+		8A506D9716F639AE0003C3DA /* LinguisticTaggerSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A506DBB16F639AE0003C3DA /* Build configuration list for PBXNativeTarget "LinguisticTagger" */;
+			buildConfigurationList = 8A506DBB16F639AE0003C3DA /* Build configuration list for PBXNativeTarget "LinguisticTaggerSample" */;
 			buildPhases = (
 				8A506D9416F639AE0003C3DA /* Sources */,
 				8A506D9516F639AE0003C3DA /* Frameworks */,
@@ -122,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = LinguisticTagger;
+			name = LinguisticTaggerSample;
 			productName = LinguisticTagger;
-			productReference = 8A506D9816F639AE0003C3DA /* LinguisticTagger.app */;
+			productReference = 8A506D9816F639AE0003C3DA /* LinguisticTaggerSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +137,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Shuichi Tsutsumi";
 			};
-			buildConfigurationList = 8A506D9316F639AE0003C3DA /* Build configuration list for PBXProject "LinguisticTagger" */;
+			buildConfigurationList = 8A506D9316F639AE0003C3DA /* Build configuration list for PBXProject "LinguisticTaggerSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A506D9716F639AE0003C3DA /* LinguisticTagger */,
+				8A506D9716F639AE0003C3DA /* LinguisticTaggerSample */,
 			);
 		};
 /* End PBXProject section */
@@ -158,11 +159,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A506DA616F639AE0003C3DA /* InfoPlist.strings in Resources */,
-				8A506DAE16F639AE0003C3DA /* Default.png in Resources */,
-				8A506DB016F639AE0003C3DA /* Default@2x.png in Resources */,
-				8A506DB216F639AE0003C3DA /* Default-568h@2x.png in Resources */,
-				8A506DB816F639AE0003C3DA /* ViewController.xib in Resources */,
+				8A506DCF16F6997F0003C3DA /* Default-568h@2x.png in Resources */,
+				8A506DD016F6997F0003C3DA /* Default.png in Resources */,
+				8A506DD116F6997F0003C3DA /* Default@2x.png in Resources */,
+				8A506DD216F6997F0003C3DA /* InfoPlist.strings in Resources */,
+				8A506DD316F6997F0003C3DA /* ViewController.xib in Resources */,
+				8A506DD416F6997F0003C3DA /* LinguisticTaggerSample-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,27 +175,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A506DA816F639AE0003C3DA /* main.m in Sources */,
-				8A506DAC16F639AE0003C3DA /* AppDelegate.m in Sources */,
-				8A506DB516F639AE0003C3DA /* ViewController.m in Sources */,
+				8A506DCE16F6997F0003C3DA /* AppDelegate.m in Sources */,
+				8A506DD516F6997F0003C3DA /* main.m in Sources */,
+				8A506DD616F6997F0003C3DA /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8A506DA416F639AE0003C3DA /* InfoPlist.strings */ = {
+		8A506DC516F6997F0003C3DA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8A506DA516F639AE0003C3DA /* en */,
+				8A506DC616F6997F0003C3DA /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8A506DB616F639AE0003C3DA /* ViewController.xib */ = {
+		8A506DC716F6997F0003C3DA /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8A506DB716F639AE0003C3DA /* en */,
+				8A506DC816F6997F0003C3DA /* en */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
@@ -261,9 +263,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LinguisticTagger/LinguisticTagger-Prefix.pch";
-				INFOPLIST_FILE = "LinguisticTagger/LinguisticTagger-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LinguisticTaggerSample/LinguisticTaggerSample-Prefix.pch";
+				INFOPLIST_FILE = "LinguisticTaggerSample/LinguisticTaggerSample-Info.plist";
+				PRODUCT_NAME = LinguisticTaggerSample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,9 +274,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LinguisticTagger/LinguisticTagger-Prefix.pch";
-				INFOPLIST_FILE = "LinguisticTagger/LinguisticTagger-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LinguisticTaggerSample/LinguisticTaggerSample-Prefix.pch";
+				INFOPLIST_FILE = "LinguisticTaggerSample/LinguisticTaggerSample-Info.plist";
+				PRODUCT_NAME = LinguisticTaggerSample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A506D9316F639AE0003C3DA /* Build configuration list for PBXProject "LinguisticTagger" */ = {
+		8A506D9316F639AE0003C3DA /* Build configuration list for PBXProject "LinguisticTaggerSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A506DB916F639AE0003C3DA /* Debug */,
@@ -291,13 +293,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A506DBB16F639AE0003C3DA /* Build configuration list for PBXNativeTarget "LinguisticTagger" */ = {
+		8A506DBB16F639AE0003C3DA /* Build configuration list for PBXNativeTarget "LinguisticTaggerSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A506DBC16F639AE0003C3DA /* Debug */,
 				8A506DBD16F639AE0003C3DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
