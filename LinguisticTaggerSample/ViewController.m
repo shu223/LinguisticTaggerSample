@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 
-#define kOriginalTextEn @"Apple Inc., formerly Apple Computer, Inc., is an American multinational corporation headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software and personal computers. Its best-known hardware products are the Mac line of computers, the iPod music player, the iPhone smartphone, and the iPad tablet computer. Its software includes the OS X and iOS operating systems, the iTunes media browser, the Safari web browser, and the iLife and iWork creativity and production suites.\n\nApple was established on April 1, 1976, by Steve Jobs, Steve Wozniak and Ronald Wayne to sell the Apple I personal computer kit. The kits were hand-built by Wozniak and first shown to the public at the Homebrew Computer Club. The Apple I was sold as a motherboard (with CPU, RAM, and basic textual-video chips), which is less than what is today considered a complete personal computer. The Apple I went on sale in July 1976 and was market-priced at $666.66 ($2,723 in 2013 dollars, adjusted for inflation.)"
+#define kOriginalTextEn @"Apple Inc., formerly Apple Computer, Inc., is an American multinational corporation headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software and personal computers.\n\nApple was established on April 1, 1976, by Steve Jobs, Steve Wozniak and Ronald Wayne to sell the Apple I personal computer kit. The kits were hand-built by Wozniak and first shown to the public at the Homebrew Computer Club. The Apple I was sold as a motherboard (with CPU, RAM, and basic textual-video chips), which is less than what is today considered a complete personal computer. The Apple I went on sale in July 1976 and was market-priced at $666.66 ($2,723 in 2013 dollars, adjusted for inflation.)"
 
 #define kOriginalTextJa @"アップル（Apple Inc.）は、アメリカ合衆国カリフォルニア州クパティーノに本社を置く、インターネット、デジタル家電製品および同製品に関連するソフトウェア製品を研究・設計・製造・販売する多国籍企業である。旧名アップル･コンピュータ（Apple Computer Inc.）。\n\nハードウェア製品として、スマートフォンのiPhone、タブレット型情報端末のiPad、パーソナルコンピュータのMacintosh（Mac）シリーズ、携帯音楽プレーヤーのiPodシリーズ。ソフトウェア製品としては、オペレーティングシステムのOS X・iOSや、統合ソフトウェアのiLife。クラウドサービスとしてはiCloudなどの研究・開発・販売を行っている。"
 
@@ -143,7 +143,7 @@
     // 区切り文字
     else if ([linguisticTag isEqualToString:NSLinguisticTagPunctuation]) {
         
-        return [self.colors objectAtIndex:1];
+        return [UIColor whiteColor];
     }
     // ホワイトスペース
     else if ([linguisticTag isEqualToString:NSLinguisticTagWhitespace]) {
@@ -153,7 +153,7 @@
     // その他
     else if ([linguisticTag isEqualToString:NSLinguisticTagOther]) {
         
-        return [UIColor lightGrayColor];
+        return [UIColor whiteColor];
     }
     
     return [UIColor whiteColor];
