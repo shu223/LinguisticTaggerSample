@@ -166,8 +166,9 @@
     NSArray *schemes = @[scheme];
     
     // NSLinguisticTaggerオブジェクトを生成
-    NSLinguisticTagger *tagger = [[NSLinguisticTagger alloc] initWithTagSchemes:schemes
-                                                                        options:0];
+    NSLinguisticTagger *tagger;
+    tagger = [[NSLinguisticTagger alloc] initWithTagSchemes:schemes
+                                                    options:0];
     
     // 処理対象テキスト
     NSString *targetText = self.textView.text;
