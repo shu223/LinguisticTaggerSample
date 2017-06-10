@@ -16,7 +16,6 @@
 		8A506DD116F6997F0003C3DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DC416F6997F0003C3DA /* Default@2x.png */; };
 		8A506DD216F6997F0003C3DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DC516F6997F0003C3DA /* InfoPlist.strings */; };
 		8A506DD316F6997F0003C3DA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DC716F6997F0003C3DA /* ViewController.xib */; };
-		8A506DD416F6997F0003C3DA /* LinguisticTaggerSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A506DC916F6997F0003C3DA /* LinguisticTaggerSample-Info.plist */; };
 		8A506DD516F6997F0003C3DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A506DCB16F6997F0003C3DA /* main.m */; };
 		8A506DD616F6997F0003C3DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A506DCD16F6997F0003C3DA /* ViewController.m */; };
 /* End PBXBuildFile section */
@@ -136,6 +135,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Shuichi Tsutsumi";
+				TargetAttributes = {
+					8A506D9716F639AE0003C3DA = {
+						DevelopmentTeam = 9Z86A4AWDE;
+					};
+				};
 			};
 			buildConfigurationList = 8A506D9316F639AE0003C3DA /* Build configuration list for PBXProject "LinguisticTaggerSample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -164,7 +168,6 @@
 				8A506DD116F6997F0003C3DA /* Default@2x.png in Resources */,
 				8A506DD216F6997F0003C3DA /* InfoPlist.strings in Resources */,
 				8A506DD316F6997F0003C3DA /* ViewController.xib in Resources */,
-				8A506DD416F6997F0003C3DA /* LinguisticTaggerSample-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +265,7 @@
 		8A506DBC16F639AE0003C3DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9Z86A4AWDE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LinguisticTaggerSample/LinguisticTaggerSample-Prefix.pch";
 				INFOPLIST_FILE = "LinguisticTaggerSample/LinguisticTaggerSample-Info.plist";
@@ -273,6 +277,7 @@
 		8A506DBD16F639AE0003C3DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9Z86A4AWDE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LinguisticTaggerSample/LinguisticTaggerSample-Prefix.pch";
 				INFOPLIST_FILE = "LinguisticTaggerSample/LinguisticTaggerSample-Info.plist";
